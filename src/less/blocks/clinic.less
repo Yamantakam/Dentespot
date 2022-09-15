@@ -1,0 +1,771 @@
+.clinic {
+  
+}
+
+
+
+.clinic__section {
+  position: relative;
+  padding: 20px 0;
+  padding-top: 25px;
+  padding-bottom: 29px;
+  border-bottom: 2px solid @primaryBack;
+}
+
+.clinic__header {
+  padding-top: 25px;
+  padding-bottom: 29px;
+}
+
+.clinic__edit {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  right: 0;
+}
+
+.clinic__edit-icon {
+  fill: @addBack;
+  transition: @primaryTr;
+}
+
+.clinic__edit {
+
+  &:hover,
+  &:focus {
+    .clinic__edit-icon {
+      fill: darken(@addBack, 10%);
+      transform: rotate(30deg);
+    }
+  }
+
+  &:active {
+    .clinic__edit-icon {
+      fill: darken(@addBack, 15%);
+    }
+  }
+}
+
+
+.clinic__subtitle {
+  max-width: 180px;
+  max-width: 250px;
+  margin-bottom: 18px;
+  margin-bottom: 25px;
+  margin-bottom: 16px;
+  margin-bottom: 17px;
+  .font(short; 16px; @primaryLH; 700);
+  @media (min-width: 380px) {
+    max-width: none;
+  }
+  &--header {
+    margin-bottom: 16px;
+    max-width: 180px;
+    @media (min-width: 380px) {
+    max-width: none;
+  }
+  }
+  &--about {
+    margin-bottom: 10px;
+  }
+}
+
+.clinic__info {
+
+}
+
+.clinic__pic {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: @primaryBack;
+}
+
+.clinic__img {
+  width: 80px;
+  height: 80px;
+}
+
+.clinic__add {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #71a5e6;
+  color: @secondColor;
+  font-size: 20px;
+  line-height: 0;
+  font-weight: 700;
+  &:hover {
+    background: darken(#71a5e6, 15%);
+  }
+}
+
+.clinic__info-items {
+  // width: 100%;
+  margin-bottom: 20px;
+}
+
+.clinic__info-item {
+  margin-bottom: 15px;
+}
+
+.clinic__info-head {
+  margin-bottom: 3px;
+  padding-top: 1px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: left;
+  &--name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+.clinic__info-foot {
+  &--mud {
+    color: #adadad;
+    font-weight: 700;
+  }
+}
+
+.clinic__link {
+  color: #009ee8;
+  line-height: 22px;
+  font-weight: 700;
+  transition: @primaryTr;
+  &--negative {
+    color: #ff2d4e;
+  }
+
+  &:hover,
+  &:focus {
+    color: darken(#009ee8, 10%);
+  }
+
+  &--negative {
+    
+    &:hover,
+    &:focus {
+      color: darken(#ff2d4e, 10%);
+    }
+  }
+}
+
+.clinic__contacts {
+  // display: flex;
+  // justify-content: start;
+  // flex-wrap: wrap;
+}
+
+.clinic__contacts-item {
+  margin-bottom: 15px;
+  font-size: 14px;
+  // margin-right: 40px;
+  &:last-of-type {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+.clinic__contacts-link {
+
+}
+
+.clinic__contacts-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.clinic__about {
+  border-bottom: 2px solid @primaryBack;
+}
+
+.clinic__descr {
+  line-height: 18px;
+}
+
+.clinic__services {
+  // display: flex;
+  // flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+
+.clinic__services .clinic__subtitle {
+  width: 100%;
+}
+
+.clinic__service {
+  // width: 220px;
+  // flex-grow: 1;
+  margin-bottom: 14px;
+  margin-right: 25px;
+  margin-right: 0;
+  &:nth-of-type(3n) {
+    // margin-right: 0;
+  }
+}
+
+.clinic__service-header {
+  position: relative;
+  margin-bottom: 11px;
+  padding: 24px 34px 24px 90px;
+  padding: 24px 34px 24px 90px;
+  // margin-bottom: 2px;
+  border: 2px solid #ff926b;
+  border-radius: 3px;
+}
+
+.clinic__service-add {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 80px;
+  padding: 10px 39px;
+  border: 1px dashed #009ee8;
+  border-radius: 5px;
+  .font(short; 14px; 18px; 700);
+  transition: @primaryTr;
+  &:hover,
+  &:focus {
+    color: darken(#009ee8, 15%);
+    border-color: darken(#009ee8, 15%);
+  }
+  &:active {
+    color: darken(#009ee8, 25%);
+    border-color: darken(#009ee8, 25%);
+  }
+}
+
+.clinic__service-plus {
+  color: #009ee8;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.clinic__certificates .clinic__service-add {
+  flex-direction: column;
+}
+
+
+
+.clinic__service-plus {
+  margin-right: 9px;
+}
+
+.clinic__service-title {
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.clinic__service-type {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  height: 100%;
+  background: #ff926b;
+}
+
+.clinic__service-icon {
+  fill: @secondBack;
+}
+
+.clinic__service-items {
+
+}
+
+.clinic__service-item {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  line-height: 18px;
+  &::before {
+    .def-pseudo();
+    top: 4px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: @ORANGE;
+  }
+}
+
+.clinic__service {
+
+  &--orange {
+    .clinic__service-header {
+      border-color: @ORANGE;
+    }
+
+    .clinic__service-type {
+      background: @ORANGE;
+    }
+
+    .clinic__service-item::before {
+      background: @ORANGE;
+    }
+  }
+
+  &--yellow {
+    .clinic__service-header {
+      border-color: @YELLOW;
+    }
+
+    .clinic__service-type {
+      background: @YELLOW;
+    }
+
+    .clinic__service-item::before {
+      background: @YELLOW;
+    }
+  }
+
+  &--green {
+    .clinic__service-header {
+      border-color: @GREEN;
+    }
+
+    .clinic__service-type {
+      background: @GREEN;
+    }
+
+    .clinic__service-item::before {
+      background: @GREEN;
+    }
+  }
+
+  &--light-blue {
+    .clinic__service-header {
+      border-color: @LIGHT-BLUE;
+    }
+
+    .clinic__service-type {
+      background: @LIGHT-BLUE;
+    }
+
+    .clinic__service-item::before {
+      background: @LIGHT-BLUE;
+    }
+  }
+
+  &--blue {
+    .clinic__service-header {
+      border-color: @BLUE;
+    }
+
+    .clinic__service-type {
+      background: @BLUE;
+    }
+
+    .clinic__service-item::before {
+      background: @BLUE;
+    }
+  }
+
+  &--amethyst {
+    .clinic__service-header {
+      border-color: @AMETHYST;
+    }
+
+    .clinic__service-type {
+      background: @AMETHYST;
+    }
+
+    .clinic__service-item::before {
+      background: @AMETHYST;
+    }
+  }
+
+  &--purple {
+    .clinic__service-header {
+      border-color: @PURPLE;
+    }
+
+    .clinic__service-type {
+      background: @PURPLE;
+    }
+
+    .clinic__service-item::before {
+      background: @PURPLE;
+    }
+  }
+}
+
+
+
+.clinic__license {
+
+}
+
+.clinic__certificates {
+  display: flex;
+  justify-content: center;
+}
+
+.clinic__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clinic__item {
+  position: relative;
+  width: 164px;
+  margin-bottom: 30px;
+  
+  // &:last-of-type {
+  //   margin-bottom: 0;
+  // }
+  // margin-left: 24px;
+}
+
+.clinic__item-pic {
+  border: 2px solid @primaryBack;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: 10px;
+}
+
+
+
+.clinic__item-img {
+  
+  line-height: 0;
+}
+
+.clinic__item-info {
+  
+}
+
+.clinic__item:hover .clinic__item-info {
+
+}
+
+.clinic__item-icon {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.clinic__name {
+  .font(short; 14px; 16px; 700);
+  text-align: center;
+}
+
+.clinic__specialists {
+
+}
+
+.clinic__position {
+  color: #009ee8;
+  line-height: 16px;
+  text-align: center;
+}
+
+.clinic__photos {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.clinic__ {
+
+}
+
+.clinic__photos {
+  .clinic__item {
+    width: 164px;
+    height: 124px;
+  }
+
+  .clinic__item-img {
+    width: 154px;
+    height: 114px;
+  }
+
+}
+
+@media (min-width: 450px) {
+  .clinic__contacts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  // .clinic__service {
+  //   margin-right: 10px;
+  //   margin-left: 10px;
+  // }
+
+  // .clinic__service-header {
+  //   padding: 24px 14px 24px 90px;
+  // }
+
+  .clinic__contacts-item {
+    margin-right: 15px;
+    margin-right: 40px;
+  }
+
+  .clinic__items {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .clinic__item {
+    margin-right: 10px;
+    margin-left: 10px;
+    &:last-of-type {
+      // margin-right: 0;
+    }
+  }
+}
+
+
+
+@media (min-width: 750px) {
+
+  .clinic__pic {
+    // margin-right: 18px;
+  }
+
+  .clinic__items {
+  justify-content: flex-start;
+}
+
+  .clinic__info-items {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding-top: 16px;
+  }
+
+  .clinic__info-item {
+    margin-right: 10px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .clinic__subtitle br {
+    display: none;
+  }
+
+  .clinic__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .clinic__service {
+    width: 48%;
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+  }
+
+  .clinic__service-add {
+    width: 48%;
+  }
+
+  .clinic__certificates .clinic__service-add {
+    width: 164px;
+    height: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .clinic__specialists .clinic__service-add {
+    width: 164px;
+    height: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .clinic__photos {
+  .clinic__service-add {
+      width: 164px;
+    height: 124px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  }
+}
+
+
+
+@media (min-width: 1150px) {
+  .clinic__pic {
+    margin-left: 0;
+    // margin-right: 0;
+  }
+
+  .clinic__info {
+    display: flex;
+    justify-content: start;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .clinic__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start;
+  }
+
+  .clinic__service {
+    width: 220px;
+    width: 29%;
+    width: 31%;
+    margin-right: 24px;
+    // &:nth-of-type(2n) {
+    //   margin-right: 0;
+    // }
+        &:nth-of-type(2n) {
+      margin-right: 24px;
+    }
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+  }
+
+  .clinic__service-header {
+    padding: 29px 14px 14px 90px;
+    padding: 10px 14px 10px 91px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+  }
+
+  .clinic__service-type {
+    
+  }
+
+  .clinic__items {
+    justify-content: flex-start;
+  }
+
+  .clinic__pic {
+    margin-right: 18px;
+  }
+
+  .clinic__service-add {
+    width: 31%;
+  }
+
+  .clinic__item-pic {
+    margin-bottom: 0;
+  }
+
+  .clinic__item-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.25);
+    opacity: 0;
+    transition: @primaryTr;
+  }
+
+  .clinic__item {
+    
+    margin-bottom: 26px;
+    font-size: 0;
+    margin-left: 4px;
+    // margin-right: 5px;
+    margin-right: 8px;
+    margin-left: 0;
+    &:last-of-type {
+      margin-bottom: 26px;
+    }
+  }
+
+  .clinic__item-icon {
+  margin-bottom: 20px;
+  display: inline-block;
+  }
+
+  .clinic__item-img {
+    margin-bottom: 0;
+    // height: 218px !important;
+    height: 218px;
+  }
+
+  .clinic__item:hover .clinic__item-info {
+    opacity: 1;
+  }
+
+  .clinic__certificates .clinic__service-add,
+   .clinic__specialists .clinic__service-add{
+    margin-right: 8px;
+    margin-left: 0;
+  }
+
+  .clinic__license {
+    padding-bottom: 0;
+  }
+
+  .clinic__specialists .clinic__item-info {
+    position: static;
+    opacity: 1;
+  }
+
+  .clinic__specialists {
+    padding-bottom: 0;
+    .clinic__item-pic {
+      margin-bottom: 10px;
+    }
+
+    .clinic__position {
+      font-size: 13px;
+    }
+    
+    .clinic__item {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+
+    .clinic__service-add {
+      margin-left: 0;
+      margin-right: 10px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .clinic__photos {
+    .clinic__item {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+    
+    .clinic__service-add {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+}

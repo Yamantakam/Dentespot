@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="Делаем стоматологию доступнее">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="">
+  <title>Dentespot | Поиск клиники</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+
+
+
+
+
+
+<body class="inner-page">
+  <div class="main-container">
+    <button class="main-container__toggle  btn" type="button" aria-label="Меню">
+      <svg class="main-container__toggle-icon" width="32" height="32" aria-hidden="true">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#menu"></use>
+      </svg>
+    </button>
+
+
+    <aside class="sidebar  main-container__sidebar">
+      <header class="sidebar__header">
+        <a class="sidebar__logo" href="index.html">
+          <img src="img/logo.png" width="250" height="24" alt="Dentespot">
+        </a>
+        <p class="sidebar__descr">Делаем стоматологию доступнее</p>
+      </header>
+
+
+      <nav class="sidebar__nav  nav  nav--sidebar">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a class="nav__link  nav__link--messages  btn" href="messages.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="19" height="12" fill="#71a5e6" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#message"></use>
+                </svg>
+              </span>
+              Сообщения
+              <span class="nav__link-counter  nav__link-counter--new">12</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--notifications  btn" href="notifications.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="17" height="20" fill="#59d85c" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#bell"></use>
+                </svg>
+              </span>
+              Уведомления
+              <span class="nav__link-counter">2</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--profile  btn" href="clinic.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="15" height="18" fill="#9887e2" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#user"></use>
+                </svg>
+              </span>
+              Профиль клиники
+              <svg class="nav__link-icon  nav__link-icon--out" width="7" height="12" fill="#adadad" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#arrow-light"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--search  btn" href="user-search.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="18" height="18" fill="#ff926b" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#loupe"></use>
+                </svg>
+              </span>
+              Поиск стоматологии для лечения
+              <svg class="nav__link-icon  nav__link-icon--out" width="7" height="12" fill="#adadad" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#arrow-light"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--service  btn" href="#">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="12" height="18" fill="#ea95ee" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#question"></use>
+                </svg>
+              </span>
+              О сервисе
+              <svg class="nav__link-icon  nav__link-icon--out" width="7" height="12" fill="#adadad" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#arrow-light"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <footer class="sidebar__footer">
+        <ul class="sidebar__social  social">
+          <li class="social__item">
+            <a class="social__link  btn" href="#" aria-label="Telegram" target="_blank">
+              <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#tg"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link  btn" href="#" aria-label="Facebook" target="_blank">
+              <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link  btn" href="#" aria-label="Vkontakte" target="_blank">
+              <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="sidebar__descr">
+          Получите деньги на телефон,
+          рассказав друзьям о Dentespot.ru
+        </p>
+      </footer>
+    </aside>
+
+
+
+
+
+
+    <div class="main-container__wrapper">
+      <header class="main-header">
+        <div class="main-header__wrapper">
+          <a class="main-header__link" href="index.html">
+            <svg class="main-header__link-icon" width="15" height="10" fill="#adadad" aria-hidden="true">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#arrow"></use>
+            </svg>
+            Вернуться на сайт
+          </a>
+
+
+          <div class="main-header__user  user">
+            <h1 class="user__title">
+              Название клиники
+              <svg class="user__icon" width="10" height="5" fill="#333333" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#arrow-user"></use>
+              </svg>
+            </h1>
+            <p class="user__status">
+              Верифицирована
+              <svg class="user__icon" width="12" height="12" fill="#1bb610" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#check"></use>
+              </svg>
+            </p>
+
+
+            <div class="user__wrapper">
+              <ul class="user__items">
+                <li class="user__item">
+                  <a class="user__link" href="#">
+                    <svg class="user__icon" width="15" height="15" fill="#009de8" aria-hidden="true">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#gear"></use>
+                    </svg>
+                    Настройки профиля
+                  </a>
+                </li>
+
+                <li class="user__item">
+                  <a class="user__link" href="#">
+                    <svg class="user__icon" width="13" height="13" fill="#ff2d4e" aria-hidden="true">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#cross"></use>
+                    </svg>
+                    Выйти с кабинета
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+
+
+
+      <main class="main">
+        <div class="main__wrapper">
+          <aside class="main__banner  banner  banner--slider">
+            <!-- <div class="single-item"> -->
+              <div class="banner__slide  banner__slide--first"></div>
+              <div class="banner__slide  banner__slide--second"></div>
+              <div class="banner__slide  banner__slide--third"></div>
+              <div class="banner__slide  banner__slide--fourth"></div>
+            <!-- </div> -->
+          </aside>
+
+
+
+          <aside class="info__banner  banner  banner--video  banner--instruction">
+                <div class="banner__video">
+                  <iframe class="banner__frame" src="" allowTransparency="true" allowfullscreen
+                    data-src="https://www.youtube.com/embed/Gj3b4KW1k3c?autoplay=1&modestbranding=1&rel=0&hl=ru&showinfo=0&color=white">
+                  </iframe>
+                  <button class="banner__btn" type="button" aria-label="Включить"></button>
+                  <p class="banner__descr">
+                Посмотреть
+                <span class="banner__descr-part">
+                  видеоинструкцию
+                </span>
+              </p>
+                </div>
+              </aside>
+
+
+
+
+          <section class="inner  clinic">
+            <h2 class="inner__title">Подобрать клинику</h2>
+            <div class="inner__content">
+              <form class="form  form--search" action="#" method="post">
+                <fieldset class="form__group">
+                  <legend class="form__title">1. Выберите категорию или услугу</legend>
+                  <p class="form__caption">Если Вы не знаете, что выбрать, то оставьте поле пустым</p>
+                  <div class="form__section  clinic__services  clinic__section">
+                    <div class="form__services">
+                      <section class="clinic__service  clinic__service--orange keksik">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Лечение зубов</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="50" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#treatment"></use>
+                            </svg>
+                          </span>
+                        </header>
+                        <ul class="form__items  form__items--serv keksik2">
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="consultation" id="consultation">
+                            <label class="form__label  form__label--checkbox" for="consultation">Консультация стоматолога</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="pulpit" id="pulpit">
+                            <label class="form__label  form__label--checkbox" for="pulpit">Лечение пульпита</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="caries" id="caries">
+                            <label class="form__label  form__label--checkbox" for="caries">Лечение кариеса</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="periodontitis" id="periodontitis">
+                            <label class="form__label  form__label--checkbox" for="periodontitis">Лечение переодонтита</label>
+                          </li>
+
+
+
+                          <!-- <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="periodontitis" id="periodontitis">
+                            <label class="form__label  form__label--checkbox" for="periodontitis">Лечение переодонтита</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="periodontitis" id="periodontitis">
+                            <label class="form__label  form__label--checkbox" for="periodontitis">Лечение переодонтита</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="periodontitis" id="periodontitis">
+                            <label class="form__label  form__label--checkbox" for="periodontitis">Лечение переодонтита</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="periodontitis" id="periodontitis">
+                            <label class="form__label  form__label--checkbox" for="periodontitis">Лечение переодонтита</label>
+                          </li> -->
+                        </ul>
+                      </section>
+
+
+
+                      <section class="clinic__service  clinic__service--yellow keksik">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Чистка и отбеливание</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="58" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#cleaning"></use>
+                            </svg>
+                          </span>
+                        </header>
+
+                        <ul class="form__items  form__items--serv  keksik2">
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="hygienist" id="hygienist">
+                            <label class="form__label  form__label--checkbox" for="hygienist">Гигиенист</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="procleaning" id="procleaning">
+                            <label class="form__label  form__label--checkbox" for="procleaning">Профессиональная чистка<br> зубов</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="fluoridation" id="fluoridation">
+                            <label class="form__label  form__label--checkbox" for="fluoridation">Фторирование эмали</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="whitening" id="whitening">
+                            <label class="form__label  form__label--checkbox" for="whitening">Отбеливание</label>
+                          </li>
+
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="remineralization" id="remineralization">
+                            <label class="form__label  form__label--checkbox" for="remineralization">Реминерализация эмали</label>
+                          </li>
+                          <li class="form__item">
+                            <input class="form__option  visually-hidden" type="checkbox" name="" id="">
+                            <label class="form__label  form__label--checkbox visually-hidden" for=""></label>
+                          </li>
+                        </ul>
+                      </section>
+
+
+                      <section class="clinic__service  clinic__service--green">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Имплантация зубов</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="45" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#implant"></use>
+                            </svg>
+                          </span>
+                        </header>
+                      </section>
+
+
+                      <section class="clinic__service  clinic__service--light-blue">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Хирургическая стоматология</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="48" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#surgery"></use>
+                            </svg>
+                          </span>
+                        </header>
+                      </section>
+
+
+                      <section class="clinic__service  clinic__service--blue">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Брекеты</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="41" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#braces"></use>
+                            </svg>
+                          </span>
+                        </header>
+                      </section>
+
+
+                      <section class="clinic__service  clinic__service--amethyst">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Протезирование зубов</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="43" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#prosthetics"></use>
+                            </svg>
+                          </span>
+                        </header>
+                      </section>
+
+
+                      <section class="clinic__service  clinic__service--purple">
+                        <header class="clinic__service-header">
+                          <h4 class="clinic__service-title">Детская стоматология</h4>
+                          <span class="clinic__service-type">
+                            <svg class="clinic__service-icon" width="31" height="50" fill="#00000" aria-hidden="true">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#children"></use>
+                            </svg>
+                          </span>
+                        </header>
+                      </section>
+                    </div>
+                  </div>
+
+
+                  <!-- <section class="form__subgroup">
+                    <h3 class="form__subtitle">Лечение зубов</h3>
+                    <ul class="form__items  form__items--serv">
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="consultation" id="consultation">
+                        <label class="form__label  form__label--checkbox" for="consultation">Консультация стоматолога</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="pulpit" id="pulpit">
+                        <label class="form__label  form__label--checkbox" for="pulpit">Лечение пульпита</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="caries" id="caries">
+                        <label class="form__label  form__label--checkbox" for="caries">Лечение кариеса</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="periodontitis" id="periodontitis">
+                        <label class="form__label  form__label--checkbox" for="periodontitis">Лечение переодонтита</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="laser" id="laser">
+                        <label class="form__label  form__label--checkbox" for="laser">Лечение кариеса лазером</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="recovery" id="recovery">
+                        <label class="form__label  form__label--checkbox" for="recovery">Восстановление зубов</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="microscope" id="microscope">
+                        <label class="form__label  form__label--checkbox" for="microscope">Лечение зубов под микроскопом</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="splinting" id="splinting">
+                        <label class="form__label  form__label--checkbox" for="splinting">Шинирование зубов</label>
+                      </li>
+                    </ul>
+                  </section> -->
+
+
+                  <!-- <section class="form__subgroup">
+                    <h3 class="form__subtitle">Чистка и отбеливание</h3>
+                    <ul class="form__items  form__items--serv">
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="hygienist" id="hygienist">
+                        <label class="form__label  form__label--checkbox" for="hygienist">Гигиенист</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="procleaning" id="procleaning">
+                        <label class="form__label  form__label--checkbox" for="procleaning">Профессиональная чистка<br> зубов</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="fluoridation" id="fluoridation">
+                        <label class="form__label  form__label--checkbox" for="fluoridation">Фторирование эмали</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="whitening" id="whitening">
+                        <label class="form__label  form__label--checkbox" for="whitening">Отбеливание</label>
+                      </li>
+
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="remineralization" id="remineralization">
+                        <label class="form__label  form__label--checkbox" for="remineralization">Реминерализация эмали</label>
+                      </li>
+                      <li class="form__item">
+                        <input class="form__option  visually-hidden" type="checkbox" name="" id="">
+                        <label class="form__label  form__label--checkbox visually-hidden" for=""></label>
+                      </li>
+                    </ul>
+                  </section> -->
+                </fieldset>
+
+
+
+                <fieldset class="form__group  form__group--message">
+                  <legend class="form__title">2. Опишите ваш диагноз или проблему своими словами*</legend>
+                  <div class="form__inner  clinic__section">
+                    <label class="form__label  visually-hidden" for="message">Текст письма:</label>
+                    <textarea class="form__field  form__message" name="message" id="message"></textarea>
+                  </div>
+                </fieldset>
+
+
+
+                <fieldset class="form__group  form__group--files">
+                  <legend class="form__title">3. Добавьте фотографии либо ренген снимки (до 8 штук)</legend>
+                  <div class="form__inner  clinic__services  clinic__section">
+                    <button class="clinic__service-add  btn">
+                      <span class="clinic__service-plus">+</span>
+                      Добавить
+                    </button>
+
+                    <button class="clinic__service-add  btn">
+                      <span class="clinic__service-plus">+</span>
+                      Добавить
+                    </button>
+
+                    <button class="clinic__service-add  btn">
+                      <span class="clinic__service-plus">+</span>
+                      Добавить
+                    </button>
+
+                    <button class="clinic__service-add  btn">
+                      <span class="clinic__service-plus">+</span>
+                      Добавить
+                    </button>
+                  </div>
+                </fieldset>
+
+
+
+
+                <fieldset class="form__group">
+                  <legend class="form__title">4. Укажите параметры для поиска</legend>
+                  <p class="form__caption">Поля помеченные звездочкой обязательны для заполнения</p>
+                  <div class="form__inner  clinic__section">
+                    <section class="form__subgroup  form__subgroup--type">
+                      <h3 class="form__subtitle">Класс клиники*</h3>
+                      <ul class="form__items  form__items--type">
+                        <li class="form__item">
+                          <input class="form__option form__radio  visually-hidden" type="radio" name="type" id="low">
+                          <label class="form__label  form__label--checkbox" for="low">Эконом-класс</label>
+                        </li>
+
+                        <li class="form__item">
+                          <input class="form__option form__radio  visually-hidden" type="radio" name="type" id="medium">
+                          <label class="form__label  form__label--checkbox" for="medium">Средний-класс</label>
+                        </li>
+
+                        <li class="form__item">
+                          <input class="form__option form__radio  visually-hidden" type="radio" name="type" id="premium">
+                          <label class="form__label  form__label--checkbox" for="premium">Премиум-класс</label>
+                        </li>
+                      </ul>
+                    </section>
+
+
+                    <section class="form__subgroup  form__subgroup--time">
+                      <h3 class="form__subtitle">Время на поиск клиники*</h3>
+                      <div class="form__wrapper">
+                        <p class="form__unit">
+                          <label class="visually-hidden" for="min">Дней</label>
+                          <input class="form__field" type="number" name="min" id="min">
+                          <span class="form__subcapt">Дней</span>
+                          <span class="visually-hidden">5</span>
+                        </p>
+                        <p class="form__unit">
+                          <label class="visually-hidden" for="max">Часов</label>
+                          <input class="form__field" type="number" name="max" id="max">
+                          <span class="form__subcapt">Часов</span>
+                          <span class="visually-hidden">10</span>
+                        </p>
+                      </div>
+
+
+                      <div class="form__wrapper  form__wrapper--location">
+                        <p class="form__unit">
+                          <label class="form__label" for="city">Город*</label>
+                          <input class="form__field" type="text" name="city" id="city">
+                          <span class="visually-hidden">Москва</span>
+                        </p>
+
+                        <p class="form__unit">
+                          <label class="form__label" for="metro">Станция метро</label>
+                          <input class="form__field" type="text" name="metro" id="metro">
+                          <span class="visually-hidden">Москва</span>
+                        </p>
+                      </div>
+
+
+                      <ul class="form__items">
+                        <li class="form__item">
+                          <input class="form__option  visually-hidden" type="checkbox" name="station" id="station">
+                          <label class="form__label  form__label--checkbox" for="station">Подбор по станции метро</label>
+                        </li>
+
+                        <li class="form__item">
+                          <input class="form__option  visually-hidden" type="checkbox" name="24" id="24">
+                          <label class="form__label  form__label--checkbox" for="24">Круглосуточная</label>
+                        </li>
+
+                        <li class="form__item">
+                          <input class="form__option  visually-hidden" type="checkbox" name="anesthesia" id="anesthesia">
+                          <label class="form__label  form__label--checkbox" for="anesthesia">Общий наркоз</label>
+                        </li>
+
+                        <li class="form__item">
+                          <input class="form__option  visually-hidden" type="checkbox" name="credit" id="credit">
+                          <label class="form__label  form__label--checkbox" for="credit">Стоматология в кредит</label>
+                        </li>
+
+                        <li class="form__item">
+                          <input class="form__option  visually-hidden" type="checkbox" name="extra" id="extra">
+                          <label class="form__label  form__label--checkbox" for="extra">По ДМС</label>
+                        </li>
+                      </ul>
+                    </section>
+                  </div>
+                </fieldset>
+                <div class="form__actions">
+                  <button class="form__btn  form__btn--search  btn  btn--main  btn--blue" type="submit">Найти лучшую цену на
+                    лечение</button>
+                  <button class="form__btn  form__btn--get  btn  btn--main" type="submit">Получить консультацию</button>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+
+
+
+
+
+
+
+      <footer class="main-footer">
+        <!-- <nav class="main-footer__nav  nav  nav--sidebar">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a class="nav__link  nav__link--messages  btn" href="messages.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="19" height="12" fill="#71a5e6" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#message"></use>
+                </svg>
+              </span>
+              Сообщения
+              <span class="nav__link-counter  nav__link-counter--new">12</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--notifications  btn" href="notifications.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="17" height="20" fill="#59d85c" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#bell"></use>
+                </svg>
+              </span>
+              Уведомления
+              <span class="nav__link-counter">2</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--profile  btn" href="clinic.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="15" height="18" fill="#9887e2" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#user"></use>
+                </svg>
+              </span>
+              Профиль
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link  nav__link--search  btn" href="user-search.html">
+              <span class="nav__link-type">
+                <svg class="nav__link-icon" width="18" height="18" fill="#ff926b" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#loupe"></use>
+                </svg>
+              </span>
+              Поиск
+            </a>
+          </li>
+        </ul>
+      </nav> -->
+
+
+
+        <div class="main-footer__wrapper">
+          <p class="main-footer__copyright">
+            Dentespot © 2018
+          </p>
+
+
+          <p class="main-footer__contacts">
+            <a class="main-footer__email" href="mailto:dentespot@gmail.com">
+              <svg class="main-footer__icon" width="18" height="12" fill="#333333" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#message"></use>
+              </svg>
+              dentespot@gmail.com
+            </a>
+
+            <a class="main-footer__tel" href="tel:+71234567890">
+              <svg class="main-footer__icon" width="14" height="14" fill="#333333" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#phone"></use>
+              </svg>
+              +7 (123) 456-78-90
+            </a>
+          </p>
+
+
+          <ul class="main-footer__social  social">
+            <li class="social__item">
+              <a class="social__link  btn" href="#" aria-label="Facebook" target="_blank">
+                <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link  btn" href="#" aria-label="Vkontakte" target="_blank">
+                <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link  btn" href="#" aria-label="Instagram" target="_blank">
+                <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#in"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link  btn" href="#" aria-label="Twitter" target="_blank">
+                <svg class="social__icon" width="20" height="20" fill="#333333" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#tw"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+

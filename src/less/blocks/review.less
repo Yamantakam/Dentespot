@@ -1,0 +1,53 @@
+.review {
+  background: @secondBack;
+  border-radius: 5px;
+}
+
+.review__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+  border-radius: 5px 5px 0 0;
+  background: #71c1e7;
+  color: @secondColor;
+}
+
+.review--negative .review__header {
+  background: #ff7087;
+}
+
+.review__date {
+  .font(short; 14px; @primaryLH; 700);
+}
+
+.review__counter {
+  .font(short; 20px; @primaryLH; 700);
+}
+
+.review__score {
+  
+}
+
+.review__content {
+  // padding: 18px 74px 18px 18px;
+  padding: 18px 18px 18px 18px;
+}
+
+.review__descr {
+  
+}
+
+.review__ {
+  
+}
+
+.review__ {
+  
+}
+
+@media (min-width: 750px) {
+  .review__content {
+    padding-right: 18px;
+  }
+}

@@ -1,0 +1,42 @@
+.search__item {
+  margin-bottom: 20px;
+}
+
+.search,
+.request {
+
+
+  @media @tablet-width {
+    .inner-item__info-item {
+      text-align: center;
+    }
+
+    .inner-item__info-head {
+      position: relative;
+      .def-ib(top);
+    }
+
+    .inner-item__info-icon {
+      left: -45px;
+    }
+  }
+}
+
+
+@media @desktop-width {
+  .search,
+  .request {
+
+    .inner-item__info-item {
+      padding-left: 20px;
+      padding-right: 20px;
+      &--time {
+        padding-left: 25px;
+      padding-right: 25px;
+      }
+      &--discount {
+        flex-shrink: 2;
+      }
+    }
+  }
+}
